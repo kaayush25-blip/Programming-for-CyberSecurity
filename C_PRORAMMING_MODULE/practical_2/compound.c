@@ -12,7 +12,6 @@ int main() {
     printf("Enter the monthly saving amount: $");
     scanf("%lf", &monthlySaving);// double has precision of 15 digits, so we use %lf for input
 
-    // make sure user doesnt enter negative number
     while (monthlySaving < 0)// if the user enters a negative number, this loop will keep asking for a valid input
      {
         printf("Please enter a valid amount: $");
