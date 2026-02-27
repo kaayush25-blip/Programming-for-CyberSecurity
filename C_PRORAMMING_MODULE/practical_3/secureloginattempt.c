@@ -4,8 +4,8 @@
 #include <stdio.h>
 int main()
  {
-    int CORRECT_PIN = 1234; // the correct PIN code
-    int MAX_ATTEMPTS = 3;  // maximum allowed attempts before locking the account
+   const int CORRECT_PIN = 1234; // the correct PIN code
+    const int MAX_ATTEMPTS = 3;  // maximum allowed attempts before locking the account
     int enteredPin;       // stores the PIN entered by the user
     int attempts = 0;     // counts how many failed attempts have been made
     int remaining;        // stores how many attempts are left after a wrong PIN
