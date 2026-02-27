@@ -1,0 +1,5 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/anonymous/Documents/C_PRORAMMING_MODULE/practical_3/output/sumcalculator'
+relocations:     []
+...
